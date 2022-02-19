@@ -1,0 +1,86 @@
+body{margin: 0px;
+    background-color: black;
+max-width: 1180px;
+background-image: url(https://pp.userapi.com/c840730/v840730335/36ae3/oZGVeeJt_4o.jpg?ava=1);
+}
+header{
+    max-width: 1180px;
+    }
+main{
+height: 1000px;
+max-width: 1180px;
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  list-style: none;
+ 
+  padding: 25px 0 5px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #ffffff;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #ffffff;}
+.menu-main a.current, .menu-main a:hover{color: #ffffff;}
+.menu-main a:before,
+.menu-main a:after {
+
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #ffffff;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+    padding: 25px 0 20px; 
+    margin: 0 30px;
+  }
+}
+.t{background-image: url(http://a1agregator.ru/wp-content/uploads/2021/12/1-1.jpg);}
+main{background-position: 10px 80px;
+    background-repeat: no-repeat;
+    border: solid 3px;
+    margin-top:  100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    max-width: 1180px;
+    color: rgb(0, 0, 0);
+height: 6000px;
+background-color: rgb(255, 255, 255);}
+p{padding: 25px;
+font: 1.2em sans-serif;
+text-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+h1{padding-left: 10px;}
+.Play{background-image: url(https://igroray.ru/upload/iblock/437/sony_playstation_2_slim_black.jpg);
+height: 1000px;
+max-width: 1000px;
+background-repeat: no-repeat;
+padding-left: 10px;}
